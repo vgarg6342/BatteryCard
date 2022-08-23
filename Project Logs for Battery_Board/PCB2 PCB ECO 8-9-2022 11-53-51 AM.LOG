@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MONITOR+ Pin=P2-2
+Removed Pin From Net: NetName=MONITOR+ Pin=U2-2
+Change Net Name : Old Net Name=MONITOR+ New Net Name=PACK+
+Added Pin To Net: NetName=MONITOR+ Pin=P2-2
+Added Pin To Net: NetName=MONITOR+ Pin=U2-2
+Added Net: Name=MONITOR+

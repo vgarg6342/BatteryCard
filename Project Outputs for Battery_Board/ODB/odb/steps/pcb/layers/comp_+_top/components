@@ -1,0 +1,382 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 2 3.39 3.49 0 N U2 MAX17049G+T10 ;0=1,1=0.0236
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Power Management ICs'
+PRP Device_Class_L3 'Battery Management'
+PRP Digikey_Description 'IC FUEL GAUGE LI-ION 2CELL 8TDFN'
+PRP Footprint_Url 'https://pdfserv.maximintegrated.com/land_patterns/90-0065.PDF'
+PRP Height '0.8mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Maxim Integrated'
+PRP Manufacturer_Part_Number 'MAX17049G+T10'
+PRP Max_Supply_Voltage '4.5V'
+PRP Min_Supply_Voltage '2.5V'
+PRP Mouser_Description 'Fuel Gauge Li-Ion 8-Pin TDFN EP T/R'
+PRP Nominal_Supply_Current '23uA'
+PRP Number_of_Cells '2'
+PRP Octopart 'https://octopart.com/max17049g%2Bt10-maxim+integrated-20327626'
+PRP Package 'T822-3'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0mm'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 3.3510236 3.5195276 0 N 6 1 U2-1
+TOP 1 3.3510236 3.4998425 0 N 1 1 U2-2
+TOP 2 3.3510236 3.4801575 0 N 14 3 U2-3
+TOP 3 3.3510236 3.4604724 0 N 6 2 U2-4
+TOP 4 3.4289764 3.4604724 0 N 0 3 U2-5
+TOP 5 3.4289764 3.4801575 0 N 6 3 U2-6
+TOP 6 3.4289764 3.4998425 0 N 4 1 U2-7
+TOP 7 3.4289764 3.5195276 0 N 3 1 U2-8
+TOP 8 3.39 3.49 0 N 6 4 U2-9
+#
+# CMP 1
+CMP 1 2.900118 3.3522047 0 N U1 BQ29209DRBR ;0=1,1=0.0394
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ29209&fileType=pdf'
+PRP DatasheetVersion 'SLUSA52A'
+PRP Eco-Plan 'Green (RoHS & no Sb/Br)'
+PRP Lead_Acid 'N'
+PRP Li-Ion 'N'
+PRP Li-Polymer 'N'
+PRP Manufacturer 'Texas Instruments'
+PRP Mounting_Technology 'Surface Mount'
+PRP NiCd 'N'
+PRP NiMH 'N'
+PRP Over_Voltage_Protection 'N'
+PRP PackageDescription '8-Pin Plastic Small Outline No-Lead, 3 x 3 x 1 mm Body, 0.65 mm Pitch, Exposed Pad'
+PRP PackageReference 'DRB0008B'
+PRP PackageVersion 'revK, Jun-2012'
+PRP PartNumber 'BQ29209DRBR'
+PRP SubFamily 'Lithium Ion Protection'
+TOP 0 2.845 3.3905906 270 N 11 0 U1-1
+TOP 1 2.845 3.365 270 N 10 1 U1-2
+TOP 2 2.845 3.3394095 270 N 9 0 U1-3
+TOP 3 2.845 3.3138189 270 N 8 0 U1-4
+TOP 4 2.9552362 3.3138189 270 N 6 7 U1-5
+TOP 5 2.9552362 3.3394095 270 N 6 8 U1-6
+TOP 6 2.9552362 3.365 270 N 2 1 U1-7
+TOP 7 2.9552362 3.3905906 270 N 7 1 U1-8
+TOP 8 2.9001182 3.3522047 0 N 6 9 U1-9
+#
+# CMP 2
+CMP 6 2.2555512 3.075 0 N R4 ERJ-6ENF1200V ;0=1,1=0.0276
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.panasonic.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf'
+PRP ComponentLink3Description 'New link'
+PRP ComponentLink3URL ''
+PRP DatasheetVersion '04/2015'
+PRP Height '0.6 mm'
+PRP Length '2 mm'
+PRP Manufacturer 'Panasonic'
+PRP Max_Operating_Temperature '155 degC'
+PRP Min_Operating_Temperature '-55 degC'
+PRP Mount 'Surface Mount'
+PRP Mounting_Technology 'Surface Mount'
+PRP Package_Quantity '5000'
+PRP PackageDescription '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP PackageReference '0805'
+PRP Packaging 'Tape and Reel'
+PRP Pins '2'
+PRP r '120'
+PRP REACH_SVHC 'Yes'
+PRP RoHSCompliant 'true'
+PRP Voltage_Rating '150 V'
+TOP 0 2.2211024 3.075 270 N 6 12 R4-1
+TOP 1 2.29 3.075 270 N 9 2 R4-2
+#
+# CMP 3
+CMP 4 2.27 3.265 0 N R3 CRCW0805200RJNEA ;0=1,1=0.0197
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0805200RJNEA'
+PRP r '200'
+TOP 0 2.2296457 3.265 270 N 5 1 R3-1
+TOP 1 2.3103544 3.265 270 N 11 2 R3-2
+#
+# CMP 4
+CMP 5 2.55 3.525 180 N R2 CRCW0805100RFKEA ;0=1,1=0.0197
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0805100RFKEA'
+PRP r '100'
+TOP 0 2.5864173 3.525 90 N 2 0 R2-1
+TOP 1 2.5135827 3.525 90 N 14 1 R2-2
+#
+# CMP 5
+CMP 4 2.2653543 3.56 0 N R1 CRCW0805200RJNEA ;0=1,1=0.0197
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0805200RJNEA'
+PRP r '200'
+TOP 0 2.225 3.56 270 N 14 2 R1-1
+TOP 1 2.3057087 3.56 270 N 10 0 R1-2
+#
+# CMP 6
+CMP 3 2.01 3.585 90 N P2 Header_6 ;0=2,1=0.0236
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP Publisher 'Altium Limited'
+TOP 0 2.01 3.585 90 N 14 0 P2-1
+TOP 1 2.01 3.485 90 N 1 0 P2-2
+TOP 2 2.01 3.385 90 N 5 0 P2-3
+TOP 3 2.01 3.285 90 N 12 0 P2-4
+TOP 4 2.01 3.185 90 N 13 0 P2-5
+TOP 5 2.01 3.085 90 N 6 0 P2-6
+#
+# CMP 7
+CMP 3 3.545 3.595 90 N P1 Header_6 ;0=2,1=0.0236
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP Publisher 'Altium Limited'
+TOP 0 3.545 3.595 90 N 7 0 P1-1
+TOP 1 3.545 3.495 90 N 0 0 P1-2
+TOP 2 3.545 3.395 90 N 0 1 P1-3
+TOP 3 3.545 3.295 90 N 0 2 P1-4
+TOP 4 3.545 3.195 90 N 3 0 P1-5
+TOP 5 3.545 3.095 90 N 4 0 P1-6
+#
+# CMP 8
+CMP 0 3.24 3.49 270 N C6 GRM21BR71H104KA01L ;0=1,1=0.0531
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Datasheet_URL 'http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf'
+PRP Datasheet_Version '42675.0'
+PRP Depth '1.25mm'
+PRP Dielectric 'X7R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '1.25mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'LeadFree'
+PRP Length '2mm'
+PRP Manufacturer 'Murata'
+PRP Manufacturer_URL 'http://www.murata.com/'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125degC'
+PRP Min_Operating_Temperature '-55degC'
+PRP Mount 'SurfaceMount'
+PRP Number_of_Pins '2'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference '0805'
+PRP Packaging 'TapeandReel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP RoHSCompliant 'true'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.053inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.049inch'
+TOP 0 3.24 3.4525984 180 N 6 6 C6-1
+TOP 1 3.24 3.5274015 180 N 14 5 C6-2
+#
+# CMP 9
+CMP 0 3.125 3.4874015 90 N C5 GRM21BR71H104KA01L ;0=1,1=0.0531
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Datasheet_URL 'http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf'
+PRP Datasheet_Version '42675.0'
+PRP Depth '1.25mm'
+PRP Dielectric 'X7R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '1.25mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'LeadFree'
+PRP Length '2mm'
+PRP Manufacturer 'Murata'
+PRP Manufacturer_URL 'http://www.murata.com/'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125degC'
+PRP Min_Operating_Temperature '-55degC'
+PRP Mount 'SurfaceMount'
+PRP Number_of_Pins '2'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference '0805'
+PRP Packaging 'TapeandReel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP RoHSCompliant 'true'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.053inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.049inch'
+TOP 0 3.125 3.5248031 0 N 14 4 C5-1
+TOP 1 3.125 3.45 0 N 6 5 C5-2
+#
+# CMP 10
+CMP 0 3.1125985 3.185 0 N C4 GRM21BR71H104KA01L ;0=1,1=0.0531
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Datasheet_URL 'http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf'
+PRP Datasheet_Version '42675.0'
+PRP Depth '1.25mm'
+PRP Dielectric 'X7R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '1.25mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'LeadFree'
+PRP Length '2mm'
+PRP Manufacturer 'Murata'
+PRP Manufacturer_URL 'http://www.murata.com/'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125degC'
+PRP Min_Operating_Temperature '-55degC'
+PRP Mount 'SurfaceMount'
+PRP Number_of_Pins '2'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference '0805'
+PRP Packaging 'TapeandReel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP RoHSCompliant 'true'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.053inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.049inch'
+TOP 0 3.0751969 3.185 270 N 6 11 C4-1
+TOP 1 3.15 3.185 270 N 2 2 C4-2
+#
+# CMP 11
+CMP 0 2.9 3.195 180 N C3 GRM21BR71H104KA01L ;0=1,1=0.0531
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Datasheet_URL 'http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf'
+PRP Datasheet_Version '42675.0'
+PRP Depth '1.25mm'
+PRP Dielectric 'X7R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '1.25mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'LeadFree'
+PRP Length '2mm'
+PRP Manufacturer 'Murata'
+PRP Manufacturer_URL 'http://www.murata.com/'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125degC'
+PRP Min_Operating_Temperature '-55degC'
+PRP Mount 'SurfaceMount'
+PRP Number_of_Pins '2'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference '0805'
+PRP Packaging 'TapeandReel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP RoHSCompliant 'true'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.053inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.049inch'
+TOP 0 2.9374016 3.195 90 N 6 10 C3-1
+TOP 1 2.8625985 3.195 90 N 8 1 C3-2
+#
+# CMP 12
+CMP 0 2.595 3.12 270 N C2 GRM21BR71H104KA01L ;0=1,1=0.0531
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Datasheet_URL 'http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf'
+PRP Datasheet_Version '42675.0'
+PRP Depth '1.25mm'
+PRP Dielectric 'X7R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '1.25mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'LeadFree'
+PRP Length '2mm'
+PRP Manufacturer 'Murata'
+PRP Manufacturer_URL 'http://www.murata.com/'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125degC'
+PRP Min_Operating_Temperature '-55degC'
+PRP Mount 'SurfaceMount'
+PRP Number_of_Pins '2'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference '0805'
+PRP Packaging 'TapeandReel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP RoHSCompliant 'true'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.053inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.049inch'
+TOP 0 2.595 3.0825984 180 N 9 1 C2-1
+TOP 1 2.595 3.1574015 180 N 11 3 C2-2
+#
+# CMP 13
+CMP 0 2.6 3.315 270 N C1 GRM21BR71H104KA01L ;0=1,1=0.0531
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '0805'
+PRP Case_Code_(Metric) '2012'
+PRP Case/Package '0805'
+PRP Datasheet_URL 'http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf'
+PRP Datasheet_Version '42675.0'
+PRP Depth '1.25mm'
+PRP Dielectric 'X7R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '1.25mm'
+PRP Insulation_Resistance '10GR'
+PRP Lead_Free 'LeadFree'
+PRP Length '2mm'
+PRP Manufacturer 'Murata'
+PRP Manufacturer_URL 'http://www.murata.com/'
+PRP Material 'Ceramic'
+PRP Max_Operating_Temperature '125degC'
+PRP Min_Operating_Temperature '-55degC'
+PRP Mount 'SurfaceMount'
+PRP Number_of_Pins '2'
+PRP Package_Description '2-Pin Surface Mount Device, Body 2 x 1.25 mm'
+PRP Package_Quantity '1'
+PRP Package_Reference '0805'
+PRP Packaging 'TapeandReel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP RoHSCompliant 'true'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.053inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.049inch'
+TOP 0 2.6 3.2775984 180 N 11 1 C1-1
+TOP 1 2.6 3.3524015 180 N 10 2 C1-2
+#

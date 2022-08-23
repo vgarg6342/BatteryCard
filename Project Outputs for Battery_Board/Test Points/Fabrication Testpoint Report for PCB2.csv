@@ -1,0 +1,7 @@
+"Net","Name","X Coord","Y Coord","Side","Hole Size","Type"
+"NetC1_2","Via","2697.402mil","3357.598mil","Top","28mil","Through hole"
+"NetC2_1","Via","2452.402mil","3082.598mil","Top","28mil","Through hole"
+"NetC2_1","Via","2687.402mil","3137.598mil","Top","28mil","Through hole"
+"NetC1_2","Via","2697.402mil","3357.598mil","Bottom","28mil","Through hole"
+"NetC2_1","Via","2452.402mil","3082.598mil","Bottom","28mil","Through hole"
+"NetC2_1","Via","2687.402mil","3137.598mil","Bottom","28mil","Through hole"
